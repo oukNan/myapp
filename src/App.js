@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Footer from './components/footer';
+import Menulist from './components/menu';
+import showMenu from './components/menu';
 
-function App() {
+
+export default function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+     <p>MENU</p>
+     
+       <ul>
+         <li className="list-one">Healthy</li>
+         <li className="list-two">Fast cook</li>
+         <li className="list-three">Soups</li>
+         
+       </ul>
+      <Menulist />
+      <button className='btn-primary' onClick={alert()}>ENTER</button>
+      <showMenu />
+    
     </div>
+    
   );
 }
 
-export default App;
+
+<Footer />
+
+
