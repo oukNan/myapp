@@ -14,6 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+Code file will display components of the menu app.
+The menu app is designed for the end user to visualize
+clearly on "Breakfast, lunch, dinner."
+This way, the user can become engaged that drives in
+possible revenue for the client.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
