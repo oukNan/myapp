@@ -5,26 +5,16 @@ import './footer.css';
 function Footer() {
     return (
         
-      <div className="Footer">
+  <div className="Footer">
        <h2>Questions</h2>
        <ul>
-           <li>a</li>
-           <li>a</li>
-           
+           <li>Live Chat</li>
+           <li>Contact Us</li>
        </ul>
          
        
-      </div>
-      
-    );
-    
-    
-  }
-  
-    
-
-  
-
+  </div>
+);}
 
 export default Footer;
 
