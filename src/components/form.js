@@ -8,14 +8,14 @@ import axios from 'axios';
 //POST method
 export default class Formfill extends Component {
     state = {
-      fname: [],
-      lname: []
+      f_choice: [],
+      s_choice: []
     }
   componentDidMount() {
       axios.get('https://jsonplaceholder.typicode.com/users')
         .then(res => {
-            const fname = res.data;
-            this.setState({ fname });
+            const f_choice = res.data;
+            this.setState({ f_choice });
         })
         
    
@@ -24,8 +24,8 @@ export default class Formfill extends Component {
    render() {
        return (
            <ul>
-              { this.state.fname.map(company => <li>{company.name}</li>)}
-               { this.state.lname }
+              { this.state.f_choice.map(company => <li>{company.name}</li>)}
+               { this.state.s_choice }
                
            </ul>
            
