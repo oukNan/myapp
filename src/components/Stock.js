@@ -18,17 +18,11 @@ function Stock() {
             return(
               <div key={key}>
                   { data.FastFood }
-                  
-                  
               </div>
-              
             );
-
           })}
           </div>  
-         
-        
-      </header>
+     </header>
   );
 }
   export default Stock;
