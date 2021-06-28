@@ -13,7 +13,7 @@ import stockData  from './data';
                     {stockData.map((data, key) => {
                         return(
                             <div key={key}>
-                                {data.FastFood + "," + data.culture + ", " + data.stockPrice + ", " + data.timeElapsed}
+                                {data.FastFood + "," + data.culture + ", " + data.stockPrice}
                             </div>
                         );
                     })}  
